@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<title>Basic Form</title>
+
+
+	<link rel="stylesheet" href="assets/css/demo.css">
+	<link rel="stylesheet" href="assets/css/form-basic.css">
+
+</head>
+
+
+	<header>
+		<h1>CURRENCY CONVERTER</h1>
+        <a href="http://tutorialzine.com/2015/07/freebie-7-clean-and-responsive-forms/">API TESTING</a>
+    </header>
+
+
+    <div class="main-content">
+
+        <!-- You only need this form and the form-basic.css -->
+
+        <form class="form-basic" method="post" action="#" id="formconvert">
+
+            <div class="form-title-row">
+                <h1>CURRENCY CONVERTER</h1>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>ENTER AMOUNT</span>
+                    <input type="text" name="amount" id="amount">
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>SELECT CONVERT FROM</span>
+                    <select name="converfrom" id="convert_from">
+                      
+                    </select>
+                </label>
+            </div>
+
+            <div class="form-row">
+                <label>
+                    <span>SELECT CONVERT TO</span>
+                    <select name="convertto" id=convert_to>
+                       
+                    </select>
+                </label>
+            </div>
+            <div class="form-row">
+                <button type="submit">CONVERT</button>
+            </div>
+
+        </form>
+
+
+
+    </div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.3/jquery.min.js"></script>
+<script type="text/javascript" src="assets/js/convert.js"></script>
+</body>
+
+</html>
